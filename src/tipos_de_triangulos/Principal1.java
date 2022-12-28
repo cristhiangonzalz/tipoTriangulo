@@ -17,6 +17,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.SystemColor;
+import java.awt.Toolkit;
 
 public class Principal1 extends JFrame {
 
@@ -41,6 +42,8 @@ public class Principal1 extends JFrame {
 	}
 
 	public Principal1() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\git\\tipoTriangulo\\icono\\icono_triangulos.png"));
+		setResizable(false);
 		setTitle("Clasificación de Triángulos");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 488, 548);
