@@ -42,7 +42,7 @@ public class Principal1 extends JFrame {
 	}
 
 	public Principal1() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\User\\git\\tipoTriangulo\\icono\\icono_triangulos.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(System.getProperty("user.dir") + "/icono/icono_triangulos.png"));
 		setResizable(false);
 		setTitle("Clasificación de Triángulos");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
